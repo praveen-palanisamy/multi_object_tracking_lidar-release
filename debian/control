@@ -1,0 +1,12 @@
+Source: ros-lunar-multi-object-tracking-lidar
+Section: misc
+Priority: extra
+Maintainer: Praveen Palanisamy <praveen.palanisamy@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-lunar-catkin, ros-lunar-cv-bridge, ros-lunar-pcl-ros, ros-lunar-roscpp, ros-lunar-sensor-msgs, ros-lunar-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-multi-object-tracking-lidar
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8, ros-lunar-cv-bridge, ros-lunar-pcl-ros, ros-lunar-roscpp, ros-lunar-sensor-msgs, ros-lunar-visualization-msgs
+Description: ROS package for Multiple objects detection, tracking and classification from LIDAR scans/point-clouds
