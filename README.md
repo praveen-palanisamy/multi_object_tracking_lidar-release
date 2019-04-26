@@ -1,3 +1,26 @@
+## multi_object_tracking_lidar (lunar) - 1.0.1-1
+
+The packages in the `multi_object_tracking_lidar` repository were released into the `lunar` distro by running `/home/home/miniconda3/bin/bloom-release multi_object_tracking_lidar --rosdistro lunar --track lunar --edit` on `Fri, 26 Apr 2019 11:09:13 -0000`
+
+The `multi_object_tracking_lidar` package was released.
+
+Version of package(s) in repository `multi_object_tracking_lidar`:
+
+- upstream repository: https://github.com/praveen-palanisamy/multiple-object-tracking-lidar.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## multi_object_tracking_lidar (indigo) - 1.0.1-1
 
 The packages in the `multi_object_tracking_lidar` repository were released into the `indigo` distro by running `/home/home/miniconda3/bin/bloom-release multi_object_tracking_lidar --rosdistro indigo --edit` on `Fri, 26 Apr 2019 10:58:48 -0000`
