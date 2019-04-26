@@ -1,0 +1,12 @@
+Source: ros-kinetic-multi-object-tracking-lidar
+Section: misc
+Priority: extra
+Maintainer: Praveen Palanisamy <praveen.palanisamy@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-multi-object-tracking-lidar
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl1.7, ros-kinetic-cv-bridge, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-visualization-msgs
+Description: ROS package for Multiple objects detection, tracking and classification from LIDAR scans/point-clouds
