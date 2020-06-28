@@ -1,0 +1,12 @@
+Source: ros-noetic-multi-object-tracking-lidar
+Section: misc
+Priority: optional
+Maintainer: Praveen Palanisamy <praveen.palanisamy@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-multi-object-tracking-lidar
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.10, libpcl-common1.10, libpcl-features1.10, libpcl-filters1.10, libpcl-io1.10, libpcl-kdtree1.10, libpcl-keypoints1.10, libpcl-ml1.10, libpcl-octree1.10, libpcl-outofcore1.10, libpcl-people1.10, libpcl-recognition1.10, libpcl-registration1.10, libpcl-sample-consensus1.10, libpcl-search1.10, libpcl-segmentation1.10, libpcl-stereo1.10, libpcl-surface1.10, libpcl-tracking1.10, libpcl-visualization1.10, ros-noetic-cv-bridge, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-visualization-msgs
+Description: ROS package for Multiple objects detection, tracking and classification from LIDAR scans/point-clouds
