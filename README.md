@@ -1,3 +1,26 @@
+## multi_object_tracking_lidar (kinetic) - 1.0.4-2
+
+The packages in the `multi_object_tracking_lidar` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic multi_object_tracking_lidar` on `Sun, 29 Aug 2021 18:18:55 -0000`
+
+The `multi_object_tracking_lidar` package was released.
+
+Version of package(s) in repository `multi_object_tracking_lidar`:
+
+- upstream repository: https://github.com/praveen-palanisamy/multiple-object-tracking-lidar.git
+- release repository: https://github.com/praveen-palanisamy/multi_object_tracking_lidar-release.git
+- rosdistro version: `1.0.2-1`
+- old version: `1.0.4-1`
+- new version: `1.0.4-2`
+
+Versions of tools used:
+
+- bloom version: `0.9.1`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## multi_object_tracking_lidar (melodic) - 1.0.4-1
 
 The packages in the `multi_object_tracking_lidar` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic multi_object_tracking_lidar` on `Sun, 29 Aug 2021 18:12:53 -0000`
